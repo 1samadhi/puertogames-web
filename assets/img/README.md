@@ -1,6 +1,5 @@
 # Directorio de Imágenes
 
-Este directorio debe contener las siguientes imágenes:
 
 1. `hero-bg.jpg` - Imagen de fondo para la sección hero (1920x1080px recomendado)
 2. `cta-bg.jpg` - Imagen de fondo para la sección CTA (1920x1080px recomendado)
@@ -11,4 +10,3 @@ Este directorio debe contener las siguientes imágenes:
 7. `juego2.jpg` - Imagen para FIFA 24 (400x500px recomendado)
 8. `juego3.jpg` - Imagen para God of War Ragnarök (400x500px recomendado)
 
-Por favor, asegúrate de que todas las imágenes tengan las dimensiones recomendadas y sean de buena calidad. 

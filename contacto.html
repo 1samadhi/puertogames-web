@@ -11,94 +11,69 @@
     <header>
         <nav class="main-nav">
             <div class="logo">
-                <h1>PuertoGames</h1>
+                <a href="index.html"><h1>PuertoGames</h1></a>
             </div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="producto.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+            <div class="nav-container">
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <!-- Contenido principal - Sección de contacto -->
     <main class="contacto-page">
         <div class="contacto-container">
-            <section class="contacto-info">
-                <h1>Contacto</h1>
-                <p class="contacto-descripcion">
-                    ¿Tienes alguna pregunta o comentario? Nos encantaría escucharte. 
-                    Completa el formulario y te responderemos lo antes posible.
-                </p>
-            </section>
-
-            <!-- Formulario de contacto -->
-            <form class="formulario-contacto" action="#" method="POST">
-                <div class="form-grid">
-                    <!-- Campo Nombre -->
+            <div class="contacto-info">
+                <h2>Información de Contacto</h2>
+                <div class="info-item">
+                    <h3>Dirección</h3>
+                    <p>Av. Diego Portales 1234</p>
+                    <p>Puerto Montt, Chile</p>
+                </div>
+                <div class="info-item">
+                    <h3>Teléfono</h3>
+                    <p>+56 9 1234 5678</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email</h3>
+                    <p>contacto@puertogames.cl</p>
+                </div>
+                <div class="info-item">
+                    <h3>Horario de Atención</h3>
+                    <p>Lunes a Viernes: 10:00 - 20:00</p>
+                    <p>Sábado: 10:00 - 16:00</p>
+                </div>
+            </div>
+            <div class="contacto-form">
+                <h2>Envíanos un Mensaje</h2>
+                <form id="contact-form">
                     <div class="form-group">
-                        <label for="nombre">Nombre completo</label>
-                        <input 
-                            type="text" 
-                            id="nombre" 
-                            name="nombre" 
-                            placeholder="Ingresa tu nombre"
-                            required
-                        >
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
                     </div>
-
-                    <!-- Campo Email -->
                     <div class="form-group">
-                        <label for="email">Correo electrónico</label>
-                        <input 
-                            type="email" 
-                            id="email" 
-                            name="email" 
-                            placeholder="ejemplo@correo.com"
-                            required
-                        >
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
                     </div>
-
-                    <!-- Campo Teléfono -->
-                    <div class="form-group">
-                        <label for="telefono">Teléfono (opcional)</label>
-                        <input 
-                            type="tel" 
-                            id="telefono" 
-                            name="telefono" 
-                            placeholder="+56 9 XXXX XXXX"
-                        >
-                    </div>
-
-                    <!-- Campo Asunto -->
                     <div class="form-group">
                         <label for="asunto">Asunto</label>
-                        <input 
-                            type="text" 
-                            id="asunto" 
-                            name="asunto" 
-                            placeholder="¿Sobre qué nos quieres contactar?"
-                            required
-                        >
+                        <input type="text" id="asunto" name="asunto" required>
                     </div>
-
-                    <!-- Campo Mensaje -->
-                    <div class="form-group mensaje-group">
+                    <div class="form-group">
                         <label for="mensaje">Mensaje</label>
-                        <textarea 
-                            id="mensaje" 
-                            name="mensaje" 
-                            placeholder="Escribe tu mensaje aquí..."
-                            required
-                        ></textarea>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
                     </div>
-
-                    <!-- Botón de envío -->
-                    <div class="form-submit">
-                        <button type="submit" class="cta-button">Enviar mensaje</button>
-                    </div>
-                </div>
-            </form>
+                    <button type="submit" class="cta-button">Enviar Mensaje</button>
+                </form>
+            </div>
         </div>
     </main>
 

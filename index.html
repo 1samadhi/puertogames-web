@@ -10,20 +10,29 @@
     <header>
         <nav class="main-nav">
             <div class="logo">
-                <h1>PuertoGames</h1>
+                <a href="index.html"><h1>PuertoGames</h1></a>
             </div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="producto.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+            <div class="nav-container">
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" style="background-image: url('https://placehold.co/1920x1080/2c3e50/ffffff/png?text=PuertoGames');">
         <div class="hero-content">
-            <h2>Bienvenido a PuertoGames</h2>
-            <p>Tu tienda de videojuegos en Puerto Montt</p>
+            <div class="hero-text">
+                <h2>Bienvenido a PuertoGames</h2>
+                <p>Tu tienda de videojuegos en Puerto Montt</p>
+            </div>
             <a href="producto.html" class="cta-button">Ver Catálogo</a>
         </div>
     </section>
@@ -33,16 +42,22 @@
             <h2>Categorías de Juegos</h2>
             <div class="categorias-grid">
                 <div class="categoria">
-                    <img src="assets/img/accion.jpg" alt="Juegos de Acción">
-                    <h3>Acción</h3>
+                    <a href="categoria-accion.html">
+                        <img src="https://placehold.co/400x300/3498db/ffffff/png?text=Acción" alt="Juegos de Acción">
+                        <h3>Acción</h3>
+                    </a>
                 </div>
                 <div class="categoria">
-                    <img src="assets/img/aventura.jpg" alt="Juegos de Aventura">
-                    <h3>Aventura</h3>
+                    <a href="categoria-aventura.html">
+                        <img src="https://placehold.co/400x300/e74c3c/ffffff/png?text=Aventura" alt="Juegos de Aventura">
+                        <h3>Aventura</h3>
+                    </a>
                 </div>
                 <div class="categoria">
-                    <img src="assets/img/deportes.jpg" alt="Juegos de Deportes">
-                    <h3>Deportes</h3>
+                    <a href="categoria-deportes.html">
+                        <img src="https://placehold.co/400x300/2ecc71/ffffff/png?text=Deportes" alt="Juegos de Deportes">
+                        <h3>Deportes</h3>
+                    </a>
                 </div>
             </div>
         </section>
@@ -51,24 +66,30 @@
             <h2>Productos Destacados</h2>
             <div class="galeria-productos">
                 <div class="producto">
-                    <img src="assets/img/juego1.jpg" alt="Juego 1">
-                    <h3>The Last of Us Part II</h3>
-                    <p>$49.990</p>
+                    <a href="the-last-of-us-2.html">
+                        <img src="https://placehold.co/400x500/34495e/ffffff/png?text=The+Last+of+Us+II" alt="The Last of Us Part II">
+                        <h3>The Last of Us Part II</h3>
+                        <p>$49.990</p>
+                    </a>
                 </div>
                 <div class="producto">
-                    <img src="assets/img/juego2.jpg" alt="Juego 2">
-                    <h3>FIFA 24</h3>
-                    <p>$54.990</p>
+                    <a href="nba2k24.html">
+                        <img src="https://placehold.co/400x500/27ae60/ffffff/png?text=NBA+2K24" alt="NBA 2K24">
+                        <h3>NBA 2K24</h3>
+                        <p>$54.990</p>
+                    </a>
                 </div>
                 <div class="producto">
-                    <img src="assets/img/juego3.jpg" alt="Juego 3">
-                    <h3>God of War Ragnarök</h3>
-                    <p>$59.990</p>
+                    <a href="godofwar.html">
+                        <img src="https://placehold.co/400x500/8e44ad/ffffff/png?text=God+of+War" alt="God of War Ragnarök">
+                        <h3>God of War Ragnarök</h3>
+                        <p>$59.990</p>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section class="cta-section">
+        <section class="cta-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://placehold.co/1920x1080/2c3e50/ffffff/png?text=CTA');">
             <h2>¿Listo para jugar?</h2>
             <p>Encuentra los mejores juegos al mejor precio en PuertoGames</p>
             <a href="contacto.html" class="cta-button">Contáctanos</a>
@@ -97,5 +118,7 @@
             <p>&copy; 2024 PuertoGames. Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html> 

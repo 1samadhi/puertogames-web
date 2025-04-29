@@ -3,50 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PuertoGames - Detalle del Producto</title>
+    <title>PuertoGames - Todos los Productos</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <nav class="main-nav">
             <div class="logo">
-                <h1>PuertoGames</h1>
+                <a href="index.html"><h1>PuertoGames</h1></a>
             </div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="producto.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+            <div class="nav-container">
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main class="producto-page">
-        <div class="producto-container">
-            <div class="producto-imagen">
-                <img src="assets/img/juego1.jpg" alt="The Last of Us Part II">
-            </div>
-            <div class="producto-info">
-                <h1>The Last of Us Part II</h1>
-                <p class="producto-descripcion">
-                    Cinco años después de su peligroso viaje a través de los Estados Unidos post-pandémicos, 
-                    Ellie y Joel se han establecido en Jackson, Wyoming. Vivir entre una próspera comunidad 
-                    de sobrevivientes les ha permitido encontrar paz y estabilidad, a pesar de la constante 
-                    amenaza de los infectados y otros sobrevivientes desesperados.
-                </p>
-                <div class="producto-detalles">
-                    <div class="producto-meta">
-                        <p><strong>Género:</strong> Acción, Aventura</p>
-                        <p><strong>Plataforma:</strong> PS4, PS5</p>
-                        <p><strong>Desarrollador:</strong> Naughty Dog</p>
+    <main class="productos-page">
+        <div class="productos-container">
+            <h1>Todos Nuestros Productos</h1>
+            
+            <div class="categorias-productos">
+                <h2>Juegos de Acción</h2>
+                <div class="galeria-productos">
+                    <div class="producto">
+                        <a href="call-of-duty.html">
+                            <img src="https://placehold.co/400x500/e74c3c/ffffff/png?text=Call+of+Duty" alt="Call of Duty: Modern Warfare III">
+                            <h3>Call of Duty: Modern Warfare III</h3>
+                            <p>$69.990</p>
+                        </a>
                     </div>
-                    <div class="producto-precio">
-                        <p class="precio">$49.990</p>
-                        <p class="stock">En stock</p>
+                    <div class="producto">
+                        <a href="godofwar.html">
+                            <img src="https://placehold.co/400x500/c0392b/ffffff/png?text=God+of+War" alt="God of War Ragnarök">
+                            <h3>God of War Ragnarök</h3>
+                            <p>$69.990</p>
+                        </a>
                     </div>
                 </div>
-                <div class="producto-acciones">
-                    <button class="cta-button">Comprar Ahora</button>
-                    <a href="index.html" class="btn-secundario">Volver al inicio</a>
+
+                <h2>Juegos de Aventura</h2>
+                <div class="galeria-productos">
+                    <div class="producto">
+                        <a href="zelda.html">
+                            <img src="https://placehold.co/400x500/27ae60/ffffff/png?text=Zelda" alt="The Legend of Zelda: Tears of the Kingdom">
+                            <h3>The Legend of Zelda: Tears of the Kingdom</h3>
+                            <p>$69.990</p>
+                        </a>
+                    </div>
+                    <div class="producto">
+                        <a href="horizon.html">
+                            <img src="https://placehold.co/400x500/2ecc71/ffffff/png?text=Horizon" alt="Horizon Forbidden West">
+                            <h3>Horizon Forbidden West</h3>
+                            <p>$69.990</p>
+                        </a>
+                    </div>
+                </div>
+
+                <h2>Juegos de Deportes</h2>
+                <div class="galeria-productos">
+                    <div class="producto">
+                        <a href="fifa24.html">
+                            <img src="https://placehold.co/400x500/3498db/ffffff/png?text=FIFA" alt="EA Sports FC 24">
+                            <h3>EA Sports FC 24</h3>
+                            <p>$69.990</p>
+                        </a>
+                    </div>
+                    <div class="producto">
+                        <a href="nba2k24.html">
+                            <img src="https://placehold.co/400x500/27ae60/ffffff/png?text=NBA+2K24" alt="NBA 2K24">
+                            <h3>NBA 2K24</h3>
+                            <p>$54.990</p>
+                        </a>
+                    </div>
+                </div>
+
+                <h2>Productos Destacados</h2>
+                <div class="galeria-productos">
+                    <div class="producto">
+                        <a href="the-last-of-us-2.html">
+                            <img src="https://placehold.co/400x500/34495e/ffffff/png?text=The+Last+of+Us+II" alt="The Last of Us Part II">
+                            <h3>The Last of Us Part II</h3>
+                            <p>$49.990</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
