@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PuertoGames - Juegos de Aventuras</title>
+    <title>PuertoGames - Juegos de Aventura</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -27,36 +27,28 @@
         </nav>
     </header>
 
-    <main class="categoria-page">
-        <div class="categoria-container">
-            <h1>Juegos de Aventuras</h1>
-            <p class="categoria-descripcion">
-                Embárcate en emocionantes aventuras llenas de misterios por resolver 
-                y mundos por explorar. Descubre historias cautivadoras y vive experiencias 
-                únicas en estos increíbles juegos de aventura.
-            </p>
-            
-            <div class="galeria-productos">
-                <div class="producto">
-                    <a href="zelda.html">
-                        <img src="https://placehold.co/400x500/27ae60/ffffff/png?text=The+Legend+of+Zelda" alt="The Legend of Zelda: Tears of the Kingdom">
-                        <h3>The Legend of Zelda: Tears of the Kingdom</h3>
-                        <p>$69.990</p>
-                    </a>
-                </div>
-                <div class="producto">
-                    <a href="horizon.html">
-                        <img src="https://placehold.co/400x500/16a085/ffffff/png?text=Horizon" alt="Horizon Forbidden West">
-                        <h3>Horizon Forbidden West</h3>
-                        <p>$69.990</p>
-                    </a>
-                </div>
-            </div>
+    <main>
+        <section class="categoria-header">
+            <h1>Juegos de Aventura</h1>
+            <p>Explora mundos increíbles y vive historias épicas</p>
+        </section>
 
-            <div class="categoria-acciones">
-                <a href="index.html" class="btn-secundario">Volver al inicio</a>
+        <section class="productos-grid">
+            <div class="producto-card">
+                <a href="zelda.html">
+                    <img src="https://placehold.co/400x500/27ae60/ffffff/png?text=Zelda" alt="The Legend of Zelda: Tears of the Kingdom">
+                    <h3>The Legend of Zelda: Tears of the Kingdom</h3>
+                    <p class="precio">$59.990</p>
+                </a>
             </div>
-        </div>
+            <div class="producto-card">
+                <a href="horizon.html">
+                    <img src="https://placehold.co/400x500/8e44ad/ffffff/png?text=Horizon" alt="Horizon Forbidden West">
+                    <h3>Horizon Forbidden West</h3>
+                    <p class="precio">$54.990</p>
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -81,5 +73,7 @@
             <p>&copy; 2024 PuertoGames. Todos los derechos reservados.</p>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html> 
