@@ -12,7 +12,7 @@ Sitio web de venta de videojuegos ubicado en Puerto Montt, Chile.
 ### Páginas de Categorías
 - `categoria-accion.html` - Juegos de acción (Call of Duty, God of War)
 - `categoria-aventuras.html` - Juegos de aventuras (Zelda, Horizon)
-- `categoria-deportes.html` - Juegos de deportes (EA Sports FC 24)
+- `categoria-deportes.html` - Juegos de deportes (EA Sports FC 24, NBA 2K24)
 
 ### Páginas de Productos
 - `call-of-duty.html` - Call of Duty: Modern Warfare III
@@ -20,6 +20,8 @@ Sitio web de venta de videojuegos ubicado en Puerto Montt, Chile.
 - `zelda.html` - The Legend of Zelda: Tears of the Kingdom
 - `horizon.html` - Horizon Forbidden West
 - `fifa24.html` - EA Sports FC 24
+- `nba2k24.html` - NBA 2K24
+- `the-last-of-us-2.html` - The Last of Us Part II
 
 ### Estructura de Archivos
 ```
@@ -35,6 +37,10 @@ PuertoGames/
 ├── zelda.html
 ├── horizon.html
 ├── fifa24.html
+├── nba2k24.html
+├── the-last-of-us-2.html
+├── assets/
+│   └── [imágenes y recursos]
 └── css/
     └── styles.css
 ```
